@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="/script/complex.js"></script>
+  </head>
+
+  <body>
+    <input id="screen" type="number" value= disabled />
+    <br>
+    <!-- Operator buttons -->
+  <button type="button" value="/" onclick="addInput(this.value);">/</button>
+  <button type="button" value="*" onclick="addInput(this.value);">x</button>
+  <button type="button" value="-" onclick="addInput(this.value);">-</button>
+  <button type="button" value="+" onclick="addInput(this.value);">+</button>
+  <br>
+  <!-- Number buttons -->
+  <button type="button" value="1" onclick="addInput(this.value);">1</button>
+  <button type="button" value="2" onclick="addInput(this.value);">2</button>
+  <button type="button" value="3" onclick="addInput(this.value);">3</button>
+  <br>
+  <button type="button" value="4" onclick="addInput(this.value);">4</button>
+  <button type="button" value="5" onclick="addInput(this.value);">5</button>
+  <button type="button" value="6" onclick="addInput(this.value);">6</button>
+  <br>
+  <button type="button" value="7" onclick="addInput(this.value);">7</button>
+  <button type="button" value="8" onclick="addInput(this.value);">8</button>
+  <button type="button" value="9" onclick="addInput(this.value);">9</button>
+  <br>
+  <button type="button" value="0" onclick="addInput(this.value);">0</button>
+  <!-- Calculate button -->
+  <button type="button" id="enter" onclick="calculate();">=</button>
+  
+  </body>

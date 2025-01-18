@@ -1,6 +1,6 @@
 function changeBackground() {
     
-    document.body.style.background = document.getElementById('colorbox').value;;
+    document.body.style.background = document.getElementById('colorbox').value;
     }
 
     
